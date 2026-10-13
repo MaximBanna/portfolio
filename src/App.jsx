@@ -1,8 +1,24 @@
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
+import Projects from "./components/sections/Projects";
+import Contact from "./components/sections/Contact";
+import Footer from "./components/layout/Footer";
+
 function App() {
   return (
-    <main className="min-h-screen bg-black text-white grid place-items-center">
-      <h1 className="text-5xl font-bold">My Portfolio</h1>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
 
