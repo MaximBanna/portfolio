@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <article className="rounded-2xl border border-neutral-800 p-6 transition-colors hover:border-neutral-600">
+    <article className="h-full rounded-2xl border border-neutral-800 p-6 transition-colors hover:border-neutral-600">
       <h3 className="text-lg font-semibold">{project.title}</h3>
       <p className="mt-2 text-sm leading-relaxed text-neutral-400">
         {project.description}
