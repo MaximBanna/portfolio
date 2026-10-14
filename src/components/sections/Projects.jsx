@@ -8,7 +8,7 @@ function Projects() {
     <section id="projects" className="py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <Reveal>
-          <SectionHeading label="Projects" title="My Projects" />
+          <SectionHeading label="Projects" title="Things I've built" />
         </Reveal>
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {projects.map((project, index) => (

@@ -30,15 +30,17 @@ function Hero() {
           className="mt-4 max-w-3xl text-5xl md:text-7xl font-bold tracking-tight"
           variants={item}
         >
-          your headline, one strong sentence about what you do
+          Junior full-stack developer building secure, real-world web apps.
         </motion.h1>
         <motion.p
           className="mt-6 max-w-xl text-lg text-neutral-400"
           variants={item}
         >
-          one or two sentences of detail
+          Software Engineering graduate from ORT Braude College (GPA 96.2,
+          perfect MAHAT score). I work mainly with Python, PHP, Java and SQL,
+          and I'm looking for a junior full-stack or backend role.
         </motion.p>
-        <motion.div className="mt-10 flex gap-4" variants={item}>
+        <motion.div className="flex-wrap mt-10 flex gap-4" variants={item}>
           <Button href="#projects">View projects</Button>
           <Button href="#contact" variant="secondary">
             Contact me

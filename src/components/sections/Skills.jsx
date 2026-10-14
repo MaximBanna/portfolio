@@ -7,7 +7,7 @@ function Skills() {
     <section id="skills" className="py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <Reveal>
-          <SectionHeading label="Skills" title="My Skills" />
+          <SectionHeading label="Skills" title="What I work with" />
         </Reveal>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {skillGroups.map((group, index) => (

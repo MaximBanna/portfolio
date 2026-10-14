@@ -19,10 +19,13 @@ function Contact() {
     <section id="contact" className="py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <Reveal>
-          <SectionHeading label="Contacts" title="My contacts" />
-          <p className="mt-6 max-w-xl text-neutral-400"></p>
+          <SectionHeading label="Contact" title="Let's talk" />
+          <p className="mt-6 max-w-xl text-neutral-400">
+            I'm looking for a junior full-stack or backend role. If you have a
+            position or a project in mind, send me an email.
+          </p>
           <a
-            className="mt-8 inline-block text-2xl md:text-4xl font-bold tracking-tight underline-offset-8 hover:underline"
+            className="break-all mt-8 inline-block text-2xl md:text-4xl font-bold tracking-tight underline-offset-8 hover:underline"
             href="mailto:you@example.com"
           >
             you@example.com
