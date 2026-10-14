@@ -1,4 +1,5 @@
 import { MotionConfig } from "motion/react";
+import CursorGlow from "./components/ui/CursorGlow";
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <MotionConfig reducedMotion="user">
+        <CursorGlow />
         <Navbar />
         <main>
           <Hero />
