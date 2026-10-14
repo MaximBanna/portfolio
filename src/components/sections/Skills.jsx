@@ -1,6 +1,7 @@
 import { skillGroups } from "../../data/skills";
 import SectionHeading from "../ui/SectionHeading";
 import Reveal from "../ui/Reveal";
+import { skillIcons } from "../../data/skillIcons";
 
 function Skills() {
   return (
@@ -15,14 +16,18 @@ function Skills() {
               <div className="h-full rounded-2xl border border-neutral-800 p-6">
                 <h3 className="font-semibold">{group.title}</h3>
                 <ul className="mt-4 flex flex-wrap gap-2">
-                  {group.items.map((item) => (
-                    <li
-                      key={item}
-                      className="rounded-full border border-neutral-800 px-3 py-1 text-sm text-neutral-400"
-                    >
-                      {item}
-                    </li>
-                  ))}
+                  {group.items.map((item) => {
+                    const Icon = skillIcons[item];
+                    return (
+                      <li
+                        key={item}
+                        className="flex items-center gap-1.5 rounded-full border border-neutral-800 px-3 py-1 text-sm text-neutral-400"
+                      >
+                        {Icon && <Icon />}
+                        {item}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </Reveal>
