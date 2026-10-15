@@ -10,6 +10,7 @@ function Projects() {
         <Reveal>
           <SectionHeading label="Projects" title="Things I've built" />
         </Reveal>
+        
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {projects.map((project, index) => (
             <Reveal key={project.title} delay={index * 0.1}>

@@ -5,15 +5,7 @@ export const skillGroups = [
   },
   {
     title: "Backend",
-    items: [
-      "Flask",
-      "SQLAlchemy",
-      "PHP 8",
-      "Node.js",
-      "Express.js",
-      "Stripe API",
-      "Twilio API",
-    ],
+    items: ["Flask", "SQLAlchemy", "PHP 8", "Node.js", "Express.js", "Stripe API", "Twilio API"],
   },
   {
     title: "Frontend & Mobile",
@@ -29,14 +21,6 @@ export const skillGroups = [
   },
   {
     title: "Tools",
-    items: [
-      "Git",
-      "GitHub",
-      "Linux",
-      "Bash",
-      "VS Code",
-      "Postman",
-      "Android Studio",
-    ],
+    items: ["Git", "GitHub", "Linux", "Bash", "VS Code", "Postman", "Android Studio"],
   },
 ];

@@ -1,16 +1,17 @@
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Contact() {
   const socials = [
     {
       label: "GitHub",
-      href: "https://github.com/your-username",
+      href: "https://github.com/MaximBanna",
       icon: FaGithub,
     },
     {
       label: "Linkedin",
-      href: "https://Linkedin.com/your-username",
+      href: "https://www.linkedin.com/in/maxim-banna-38232b29b/",
       icon: FaLinkedin,
     },
   ];
@@ -20,24 +21,27 @@ function Contact() {
       <div className="mx-auto max-w-5xl px-6">
         <Reveal>
           <SectionHeading label="Contact" title="Let's talk" />
+
           <p className="mt-6 max-w-xl text-neutral-400">
             I'm looking for a junior full-stack or backend role. If you have a
             position or a project in mind, send me an email.
           </p>
+
           <a
+            href="mailto:maximlyanb@gmail.com"
             className="break-all mt-8 inline-block text-2xl md:text-4xl font-bold tracking-tight underline-offset-8 hover:underline"
-            href="mailto:you@example.com"
           >
-            you@example.com
+            maximlyanb@gmail.com
           </a>
+
           <div className="mt-10 flex gap-6 text-sm">
             {socials.map((social) => {
               const Icon = social.icon;
               return (
                 <a
+                  href={social.href}
                   className="text-neutral-400 transition-colors hover:text-neutral-100 flex items-center gap-2"
                   key={social.href}
-                  href={social.href}
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -1,7 +1,7 @@
 import { skillGroups } from "../../data/skills";
+import { skillIcons } from "../../data/skillIcons";
 import SectionHeading from "../ui/SectionHeading";
 import Reveal from "../ui/Reveal";
-import { skillIcons } from "../../data/skillIcons";
 
 function Skills() {
   return (
@@ -10,19 +10,18 @@ function Skills() {
         <Reveal>
           <SectionHeading label="Skills" title="What I work with" />
         </Reveal>
+
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {skillGroups.map((group, index) => (
             <Reveal key={group.title} delay={index * 0.1}>
               <div className="h-full rounded-2xl border border-neutral-800 p-6">
                 <h3 className="font-semibold">{group.title}</h3>
+
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {group.items.map((item) => {
                     const Icon = skillIcons[item];
                     return (
-                      <li
-                        key={item}
-                        className="flex items-center gap-1.5 rounded-full border border-neutral-800 px-3 py-1 text-sm text-neutral-400"
-                      >
+                      <li key={item} className="flex items-center gap-1.5 rounded-full border border-neutral-800 px-3 py-1 text-sm text-neutral-400">
                         {Icon && <Icon />}
                         {item}
                       </li>
