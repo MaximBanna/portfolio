@@ -18,6 +18,6 @@ export const projects = [
     description: "This website, my first React project: a responsive dark design with scroll animations and a cursor glow.",
     tags: ["React", "Tailwind CSS", "Motion"],
     github: "https://github.com/MaximBanna/portfolio",
-    demo: "",
+    demo: "https://portfolio-zeta-black-31.vercel.app",
   },
 ];

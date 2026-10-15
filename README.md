@@ -2,7 +2,7 @@
 
 My personal portfolio website, built with React, Tailwind CSS and Motion.
 
-**Live site:** _coming soon_
+**Live site:** [portfolio-zeta-black-31.vercel.app](https://portfolio-zeta-black-31.vercel.app)
 
 ![Screenshot of the portfolio](docs/screenshot.png)
 
