@@ -1,16 +1,49 @@
-# React + Vite
+# Maxim Banna – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website, built with React, Tailwind CSS and Motion.
 
-Currently, two official plugins are available:
+**Live site:** _coming soon_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Screenshot of the portfolio](docs/screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive dark, minimal design
+- Animated hero and scroll-reveal sections
+- Mouse-following cursor glow (desktop only)
+- Mobile navigation menu
+- Skill pills with technology icons
+- Content kept in data files (`src/data`), separate from the components
+- Respects the "reduce motion" accessibility setting
 
-## Expanding the ESLint configuration
+## Built with
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev) and [Vite](https://vite.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Motion](https://motion.dev)
+- [Lucide](https://lucide.dev) and [React Icons](https://react-icons.github.io/react-icons/)
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the address shown in the terminal (usually http://localhost:5173).
+
+## Project structure
+
+```
+src/
+├── components/
+│   ├── layout/     Navbar, Footer
+│   ├── sections/   Hero, About, Skills, Projects, Contact
+│   └── ui/         Button, SectionHeading, ProjectCard, Reveal, CursorGlow
+└── data/           skills, skillIcons, projects
+```
+
+## Contact
+
+- GitHub: [MaximBanna](https://github.com/MaximBanna)
+- LinkedIn: [maxim-banna](https://www.linkedin.com/in/maxim-banna-38232b29b)
